@@ -69,7 +69,7 @@ rfunction.post_method('https://reqres.in/api/login',data=user_loginfail)
 """ user data update using put method """
 put_data = {
     "name": "morpheus",
-    "job": "zion resident"
+    "job": "Python Selenium"
     }
 rfunction.put_method('https://reqres.in/api/users/2',data=put_data)
 
@@ -79,8 +79,8 @@ rfunction.put_method('https://reqres.in/api/users/2',data=put_data)
 
 """ user data update using patch method """
 patch_data = {
-    "name": "Rahul",
-    "job": "Team Lead"
+    "name": "Bhanu",
+    "job": "QA team"
     }
 rfunction.patch_method('https://reqres.in/api/users/2',data=patch_data)
 
