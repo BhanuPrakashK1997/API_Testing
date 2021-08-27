@@ -1,0 +1,16 @@
+payload_register = {
+    "email": "eve.holt@reqres.in",
+    "password": "python"
+    }
+
+payload_unregister = {
+    "email": "krishna@fife"
+    }
+
+payload_login = {
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+    }
+payload_unsuccess_login = {
+    "email": "peter@klaven"
+    }
